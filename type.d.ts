@@ -48,7 +48,7 @@ declare global {
         extends Omit<UpcomingSubscription, "id"> {}
 
     interface ListHeadingProps {
-        title: string;
+        title: string
     }
 }
 
