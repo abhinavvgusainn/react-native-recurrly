@@ -34,14 +34,14 @@ const Settings = () => {
       </View>
 
       <Pressable
-        className="mt-6 flex-row items-center justify-center rounded-2xl bg-primary px-4 py-4"
+        className="mt-6 flex-row items-center justify-center rounded-2xl bg-destructive px-4 py-4"
         disabled={isSigningOut}
         onPress={handleSignOut}
       >
         {isSigningOut ? (
           <ActivityIndicator color="#FFFFFF" />
         ) : (
-          <Text className="font-sans-semibold text-base text-white">Sign Out</Text>
+          <Text className="font-sans-semibold text-base text-white">Logout</Text>
         )}
       </Pressable>
     </SafeAreaView>
